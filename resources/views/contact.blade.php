@@ -14,8 +14,7 @@
 				<h1>Contact</h1>
 				<h2>Mail: {{$mail}}</h2>
 				<h2>Telephone: {{$cell}}</h2>
-				<h2>Address: {{$address}}</h2>
-				
+				<h2>Address: {{$address}}</h2>			
 			</div>
 		</div>
 	</div>
