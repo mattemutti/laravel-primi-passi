@@ -14,5 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $data = [
+
+        'name' => 'Matteo',
+        'colors' => ['yellow', 'red', 'blue', 'green', 'black', 'white']
+
+    ];
+
+    return view('home', $data);
+});
+
+
+Route::get('/contact', function () {
+
+    $mail = 'mmmmm@mmm.it';
+    $cell = 33333333333;
+    $address = 'via le mani 66';
+
+    return view('contact', compact('mail', 'cell', 'address'));
 });

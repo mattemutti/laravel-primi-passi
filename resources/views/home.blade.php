@@ -12,7 +12,20 @@
 </head>
 <body class="antialiased">
 
-<h1 class="text-center p-4" >Ciao Laravel</h1>
+<h1 class="text-center p-4 text-danger" >Ciao Laravel</h1>
 	
+<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-2 text-center">
+			<div class="p-5" >{{$name}}</div>
+			@foreach ($colors as $color)
+			<div class="card text-center p-4 m-2">
+				{{ $color}}
+			</div>
+			@endforeach
+		</div>
+	</div>
+</div>
+</div>
 </body>
 </html>
