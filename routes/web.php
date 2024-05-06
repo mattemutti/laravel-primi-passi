@@ -33,4 +33,4 @@ Route::get('/contact', function () {
     $address = 'via le mani 66';
 
     return view('contact', compact('mail', 'cell', 'address'));
-});
+})->name('contact');

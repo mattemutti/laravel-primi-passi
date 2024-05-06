@@ -26,6 +26,12 @@
 		</div>
 	</div>
 </div>
+<div class="container p-4">
+	<div class="row justify-content-center">
+		<div class="col-2 text-center">
+			<a href="/contact" class="btn btn-primary">Contact</a>
+		</div>
+	</div>
 </div>
 </body>
 </html>

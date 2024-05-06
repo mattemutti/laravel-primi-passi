@@ -18,7 +18,13 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-2 text-center">
+			<a href="/" class="btn btn-primary">Home</a>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
