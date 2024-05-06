@@ -22,6 +22,9 @@ Route::get('/', function () {
 
     ];
 
+    // @dd($data);
+    ///@ddd($data);
+
     return view('home', $data);
 });
 
